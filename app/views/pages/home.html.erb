@@ -1,2 +1,10 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container-card">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h1 class="card-title">Bem vindo, <%= @user.name %></h1>
+      <p class="card-text">Nome: <%= @user.name %> <%= @user.surname %> </p>
+      <p class="card-text">Email: <%= @user.email %> </p>
+      <%= link_to 'Editar cadastro', edit_user_registration_path, class: "btn btn-welcome" %>
+    </div>
+  </div>
+</div>
