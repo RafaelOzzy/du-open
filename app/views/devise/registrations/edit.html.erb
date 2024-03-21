@@ -39,7 +39,8 @@
           </div>
         <% end %>
         <h3>Cancele minha conta</h3>
-        <div><%= button_to "Cancelar", registration_path(resource_name), class: "botao-red", data: { confirm: "Are you sure?", turbo_confirm: "Are you sure?" }, method: :delete %></div>
+        <div><%= button_to "Cancelar", registration_path(resource_name), class: "botao-red", data: { confirm: "Are you sure?", turbo_confirm: "Are you sure?" }, method: :delete %>
+        </div>
         <%= link_to "voltar", root_path, class: "voltar" %>
       </div>
     </div>
