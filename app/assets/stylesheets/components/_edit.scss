@@ -1,0 +1,47 @@
+.container-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.edit-form {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+}
+
+.edit-form-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 1rem;
+  margin-top: 25px;
+}
+
+.edit-form-card h3 {
+  font-size: small;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.botao-red {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 5px 50px;
+  border: 0px;
+  margin-bottom: 10px;
+}
+
+.voltar {
+  text-decoration: none;
+}
+
+.update {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

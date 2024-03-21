@@ -1,0 +1,32 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  text-align: center;
+  border-radius: 50px;
+}
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-welcome {
+  background-color: #248ED4;
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  color: var(--bs-card-title-color);
+  font-weight: 600;
+}
